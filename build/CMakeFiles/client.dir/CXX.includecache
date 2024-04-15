@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/TimeStamp.h
+string
+-
+sys/time.h
+-
+
+/home/lzd/Project/NewMuduo/client/client.cpp
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+errno.h
+-
+string.h
+-
+netinet/in.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+time.h
+-
+TimeStamp.h
+/home/lzd/Project/NewMuduo/client/TimeStamp.h
+
+/home/lzd/Project/NewMuduo/src/TimeStamp.cpp
+TimeStamp.h
+/home/lzd/Project/NewMuduo/src/TimeStamp.h
+

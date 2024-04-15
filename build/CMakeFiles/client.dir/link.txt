@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2  -rdynamic CMakeFiles/client.dir/client/client.cpp.o CMakeFiles/client.dir/src/TimeStamp.cpp.o  -o ../bin/client 
